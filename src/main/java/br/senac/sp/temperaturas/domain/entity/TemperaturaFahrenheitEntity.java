@@ -1,10 +1,10 @@
 package br.senac.sp.temperaturas.domain.entity;
 
-public class TemperaturaEntity {
+public class TemperaturaFahrenheitEntity {
 
     private final Double temperaturaCelsius;
 
-    public TemperaturaEntity(Double temperaturaCelsius){
+    public TemperaturaFahrenheitEntity(Double temperaturaCelsius){
         this.temperaturaCelsius = temperaturaCelsius;
     }
 
